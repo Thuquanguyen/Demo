@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/itemHome"
+            android:checked="true"
+            android:icon="@drawable/ic_garage_open"
+            android:title="Danh sách người thân" />
+        <item
+            android:id="@+id/itemHistory"
+            android:icon="@drawable/ic_history"
+            android:title="Lịch sử cứu hộ" />
+        <item
+            android:id="@+id/itemSetting"
+            android:icon="@drawable/ic_setting"
+            android:title="Cài đặt" />
+        <item
+            android:id="@+id/itemHuongDan"
+            android:icon="@drawable/ic_huongdan"
+            android:title="Hướng dẫn sử dụng" />
+
+        <item
+            android:id="@+id/itemDanhGia"
+            android:icon="@drawable/heart"
+            android:title="Đánh giá ứng dụng" />
+
+        <item
+            android:id="@+id/itemAbout"
+            android:icon="@drawable/ic_button_i"
+            android:title="Thông tin ứng dụng" />
+        <item
+            android:id="@+id/itemThemDiaDiem"
+            android:icon="@drawable/add"
+            android:title="Thêm địa điểm"
+            />
+        <item
+            android:id="@+id/itemShare"
+            android:icon="@drawable/ic_share"
+            android:title="Chia sẻ ứng dụng" />
+        <item
+            android:id="@+id/itemLogout"
+            android:icon="@drawable/ic_logout"
+            android:title="Đăng xuất" />
+    </group>
+
+
+
+</menu>

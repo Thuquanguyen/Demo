@@ -1,0 +1,60 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="anchor_point">300dp</dimen>
+    <dimen name="bottom_sheet_peek_height">95dp</dimen>
+    <dimen name="marginTop_layoutLogo">50dp</dimen>
+    <dimen name="text_KSE">32sp</dimen>
+    <dimen name="marginTop_of_textKSE">10dp</dimen>
+
+    <!--Layout Login-->
+    <dimen name="marginTop_of_layoutLogin">24dp</dimen>
+    <dimen name="paddingRight_of_layoutLogin">30dp</dimen>
+    <dimen name="paddingLeft_of_layoutLogin">30dp</dimen>
+
+    <!--Layout Login User-->
+    <dimen name="padding_of_layoutLogin_User">6dp</dimen>
+    <dimen name="layout_width_hight_of_imageView_on_llLogin">24dp</dimen>
+
+    <dimen name="paddingLeft_of_EditText">5dp</dimen>
+    <dimen name="textSize_of_EditText">16sp</dimen>
+
+    <dimen name="width_of_EditText">250dp</dimen>
+    <dimen name="hight_of_EditText">32dp</dimen>
+
+    <!--Layout Login Password-->
+    <dimen name="marginTop_of_llPass">5dp</dimen>
+    <dimen name="padding_of_llPass">5dp</dimen>
+
+    <!--Layout Login Button-->
+    <dimen name="marginTop_of_button_Login">10dp</dimen>
+    <dimen name="hight_of_button_Login">42dp</dimen>
+
+    <!--Layout Login LostPass and New Member-->
+    <dimen name="marginTop_of_llLostNew">8dp</dimen>
+    <dimen name="height_of_llLostNew">42dp</dimen>
+    <dimen name="marginLeft_of_Loss">5dp</dimen>
+    <dimen name="textSize_of_Loss">12sp</dimen>
+
+    <!--Layout Register With-->
+    <dimen name="marginTop_of_llRegister">70dp</dimen>
+    <dimen name="height_of_llRegister">20dp</dimen>
+    <dimen name="width_of_line_Register">75dp</dimen>
+    <dimen name="textSize_of_Register">12dp</dimen>
+
+    <!--Layout Button Bottom-->
+    <dimen name="marginRight_Button_Bottom">5dp</dimen>
+    <dimen name="padding_Button_Bottom">5dp</dimen>
+
+    <!--SIZE ICON-->
+    <dimen name="ic_travel_height_width">80dp</dimen>
+    <dimen name="ic_user_pass_width_height">24dp</dimen>
+    <dimen name="ic_lost_add">16dp</dimen>
+    <dimen name="ic_bottom_height_width">32dp</dimen>
+
+
+    <dimen name="corner_radius">0dp</dimen>
+    <dimen name="layer_padding">3dp</dimen>
+</resources>

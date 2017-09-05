@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <android.support.v7.widget.Toolbar
+        android:background="#EEEEEE"
+        android:id="@+id/tbarTop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    </android.support.v7.widget.Toolbar>
+    <TextView
+        android:id="@+id/txtAboutShadow"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:layout_below="@id/tbarTop"
+        android:background="@drawable/shadow_top_to_dow"/>
+    <LinearLayout
+        android:id="@+id/llSOS"
+        android:background="#F5F5F5"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_below="@+id/txtAboutShadow"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <ImageView
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            app:srcCompat="@drawable/ic_circle"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SOS-Phiên bản 1.0.0"/>
+    </LinearLayout>
+    <TextView
+        android:id="@+id/txtAboutShadow2"
+        android:layout_below="@id/llSOS"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/shadow_top_to_dow"
+        />
+    <android.support.v7.widget.RecyclerView
+        android:background="#FAFAFA"
+        android:id="@+id/rcView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/txtAboutShadow2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"></android.support.v7.widget.RecyclerView>
+    <TextView
+        android:layout_above="@+id/llAboutBotton"
+        android:id="@+id/txtAboutShadow3"
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/shadow_top_to_dow"
+        />
+    <LinearLayout
+        android:id="@+id/llAboutBotton"
+        android:layout_alignParentBottom="true"
+        android:background="#f4f4f4"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <TextView
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phát triển bởi KSE"/>
+    </LinearLayout>
+
+</RelativeLayout>

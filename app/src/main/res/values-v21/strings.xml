@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="loginwith">Login With</string>
+    <string name="quenmatkhau">Quên mật khẩu?</string>
+    <string name="taikhoanmoi">Tạo tài khoản mới</string>
+    <string name="dangnhap">Đăng Nhập</string>
+    <string name="matkhau">Mật khẩu</string>
+    <string name="email">Email</string>
+    <string name="cuuho">Cứu hộ giao thông</string>
+    <string name="sodienthoai">Số điện thoại</string>
+    <string name="nhaplaimatkhau">Nhập lại mật khẩu</string>
+    <string name="dangky">Đăng ký</string>
+    <string name="trovedangnhap">Trở về đăng nhập</string>
+    <string name="timkiem">Tìm Kiếm Theo</string>
+    <string name="timkiemtatca">Tất cả theo loại</string>
+    <string name="timkiemchonloc">Chọn lọc theo hãng</string>
+    <string name="luachon">Lựa chọn</string>
+    <string name="main_no_items">No items</string>
+    <string name="hangxe">Mời bạn chọn hãng xe</string>
+    <string name="chonloaixe">Mời bạn chọn loại xe</string>
+    <string name="huybo">Hủy Bỏ</string>
+
+</resources>

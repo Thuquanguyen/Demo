@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#b41405</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="bg_login">#26ae90</color>
+    <color name="bg_register">#2e3237</color>
+    <color name="bg_main">#428bca</color>
+    <color name="white">#ffffff</color>
+    <color name="input_login">#222222</color>
+    <color name="input_login_hint">#999999</color>
+    <color name="input_register">#888888</color>
+    <color name="input_register_bg">#3b4148</color>
+    <color name="input_register_hint">#5e6266</color>
+    <color name="btn_login">#26ae90</color>
+    <color name="btn_login_bg">#eceef1</color>
+    <color name="lbl_name">#333333</color>
+    <color name="btn_logut_bg">#ff6861</color>
+
+    <color name="background_1">#e67d7d</color>
+    <color name="background_dark_1">#7c0808</color>
+    <color name="color_primary">#E91E63</color>
+    <color name="color_primary_dark">#C2185B</color>
+    <color name="color_accent">#00E676</color>
+
+    <color name="color_material_metaphor">#039BE5</color>
+    <color name="color_material_bold">#EC407A</color>
+    <color name="color_material_motion">#6A1B9A</color>
+    <color name="color_material_shadow">#E0E0E0</color>
+    <color name="color_permissions">#FFEB3B</color>
+    <color name="color_custom_fragment_1">#f7e4dd</color>
+    <color name="color_custom_fragment_2">#3F51B5</color>
+    <color name="color_canteen">#fdfdfd</color>
+
+
+    <color name="color_custom_light_gray">#e4e4e4</color>
+    <color name="color_custom_ultralight_gray">#f9f9f9</color>
+    <color name="color_custom_light_blue">#3698dc</color>
+    <color name="color_custom_dark_gray">#a1a1a1</color>
+    <color name="color_custom_gray">#505050</color>
+    <color name="color_response_invited">#e0f9cf</color>
+    <color name="color_response_watched">#ffffff</color>
+    <color name="color_response_declined">#fae6e2</color>
+    <color name="color_custom_red">#ca0000</color>
+    <color name="color_custom_border_blue">#73b7e7</color>
+
+    <color name="color_dark_material_metaphor">#0277BD</color>
+    <color name="color_dark_material_bold">#D81B60</color>
+    <color name="color_dark_material_motion">#4A148C</color>
+    <color name="color_dark_material_shadow">#BDBDBD</color>
+    <color name="color_dark_permissions">#FBC02D</color>
+    <color name="color_dark_custom_fragment_1">#bc988c</color>
+    <color name="color_dark_custom_fragment_2">#303F9F</color>
+    <color name="color_dark_canteen">#ebeef0</color>
+    <color name="black_a">#000000</color>
+</resources>

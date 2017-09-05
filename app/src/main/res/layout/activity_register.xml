@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#f4fbfd"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgView"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_margin="20dp"
+        android:src="@drawable/icon" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/line_circle"
+        android:orientation="horizontal"
+        android:padding="5dp">
+
+        <ImageView
+            android:layout_width="@dimen/layout_width_hight_of_imageView_on_llLogin"
+            android:layout_height="@dimen/layout_width_hight_of_imageView_on_llLogin"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/phone" />
+
+        <EditText
+            android:id="@+id/edtSoDienThoai"
+            android:layout_width="@dimen/width_of_EditText"
+            android:layout_height="@dimen/hight_of_EditText"
+            android:layout_marginLeft="@dimen/paddingLeft_of_EditText"
+            android:background="#00ffffff"
+            android:hint="@string/sodienthoai"
+            android:inputType="text"
+            android:textSize="@dimen/textSize_of_EditText" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/line_circle"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding_of_layoutLogin_User">
+
+        <ImageView
+            android:layout_width="@dimen/layout_width_hight_of_imageView_on_llLogin"
+            android:layout_height="@dimen/layout_width_hight_of_imageView_on_llLogin"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/mail" />
+
+        <EditText
+            android:id="@+id/edtEmail"
+            android:layout_width="@dimen/width_of_EditText"
+            android:layout_height="@dimen/hight_of_EditText"
+            android:layout_marginLeft="@dimen/paddingLeft_of_EditText"
+            android:background="#00ffffff"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:textSize="@dimen/textSize_of_EditText" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginTop_of_llPass"
+        android:background="@drawable/line_circle"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding_of_llPass">
+
+        <ImageView
+            android:layout_width="@dimen/layout_width_hight_of_imageView_on_llLogin"
+            android:layout_height="@dimen/layout_width_hight_of_imageView_on_llLogin"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/pass" />
+
+        <EditText
+            android:id="@+id/edtNhapPass"
+            android:layout_width="@dimen/width_of_EditText"
+            android:layout_height="@dimen/hight_of_EditText"
+            android:layout_marginLeft="@dimen/paddingLeft_of_EditText"
+            android:background="#00ffffff"
+            android:hint="@string/matkhau"
+            android:inputType="textPassword"
+            android:textSize="@dimen/textSize_of_EditText" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginTop_of_llPass"
+        android:background="@drawable/line_circle"
+        android:orientation="horizontal"
+        android:padding="@dimen/padding_of_llPass">
+
+        <ImageView
+            android:layout_width="@dimen/layout_width_hight_of_imageView_on_llLogin"
+            android:layout_height="@dimen/layout_width_hight_of_imageView_on_llLogin"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/pass" />
+
+        <EditText
+            android:id="@+id/edtNhapLaiPass"
+            android:layout_width="@dimen/width_of_EditText"
+            android:layout_height="@dimen/hight_of_EditText"
+            android:layout_marginLeft="@dimen/paddingLeft_of_EditText"
+            android:background="#00ffffff"
+            android:hint="@string/nhaplaimatkhau"
+            android:inputType="textPassword"
+            android:textSize="@dimen/textSize_of_EditText" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/hight_of_button_Login"
+
+        android:layout_marginTop="@dimen/marginTop_of_button_Login"
+        android:background="@drawable/ic_line_button"
+        android:text="@string/dangky"
+        android:textColor="#bef0ed" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_of_llLostNew"
+        android:layout_gravity="right"
+        android:layout_marginTop="@dimen/marginTop_of_llLostNew"
+        android:gravity="right">
+
+        <LinearLayout
+            android:id="@+id/btnLinkLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="right"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/ic_lost_pass" />
+
+            <TextView
+
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/marginLeft_of_Loss"
+                android:text="@string/trovedangnhap"
+                android:textSize="@dimen/textSize_of_Loss" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_of_llRegister"
+        android:layout_marginTop="@dimen/marginTop_of_llRegister"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="@dimen/width_of_line_Register"
+            android:layout_height="1dp"
+            android:background="#d2d2d2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="LOGIN WITH"
+            android:textColor="#656768"
+            android:textSize="@dimen/textSize_of_Register" />
+
+        <TextView
+            android:layout_width="@dimen/width_of_line_Register"
+            android:layout_height="1dp"
+            android:background="#d2d2d2" />
+    </LinearLayout>
+</LinearLayout>
