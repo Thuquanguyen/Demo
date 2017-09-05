@@ -220,6 +220,7 @@ public class MapsActivity extends AppCompatActivity implements GoogleApiClient.O
         FacebookSdk.sdkInitialize(getApplicationContext());
         rela = (RelativeLayout) findViewById(R.id.real);
         floattingCall = (Button) findViewById(R.id.floattingCall);
+        /*Nguyen Quang Thu*/
         /*Khời tạo markerPoints*/
         markerPoints = new ArrayList<LatLng>();
         // Obtain the SupportMapFragment and get notified when the map is ready to be used.
